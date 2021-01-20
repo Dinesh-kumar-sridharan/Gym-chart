@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym chart</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="d-flex flex-column m-4">
+<h2>Gym chart</h2>
+<p><strong>Note:</strong> The chart has to follow for 7 days if we take a leave, we have to postpone the current day exercise to the next day.</p>
+<div id="accordion">
+    <div class="card">
+        <div class="card-header" id="DAY1">
+           <h5 class="mb-0 d-inline">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              DAY #1
+              </button>
+           </h5>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="DAY1" data-parent="#accordion">
+           <div class="card-body" id="child1">
+              <div class="card">
+                 <div class="card-header" id="headingAOne">
+                    <a href="#" data-toggle="collapse" data-target="#collapseOneA" >#1 LAT / WINGS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child1" id="collapseOneA" aria-labelledby="headingAOne">
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseOneA1" >1) LAT PULL DOWN</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseOneA" id="collapseOneA1" aria-labelledby="headingAOne">
+                          <p class="p-2">1) Normal robe</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/O94yEoGXtBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Cybex machine</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/7D2t1XnrW2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseOneA2">2) ROWING</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseOneA" id="collapseOneA2">
+                          <p class="p-2">1) Seated rowing</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/oyQAKfv59ww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Dumbell rowing</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/djKXLt7kv7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseOneA3">3) PULL UPS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseOneA" id="collapseOneA3">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/YiDBLo2Ssbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseOneB">#2 JUMPING JACKS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child1" id="collapseOneB">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9gDfNpzytLo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseOneC">#3 ABS CRUNCHES</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child1" id="collapseOneC">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6BvYD6yw2QE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseOneD">#4 FORE ARMS BACK</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child1" id="collapseOneD">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UvYfOYVpEVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="card">
+        <div class="card-header" id="DAY2">
+           <h5 class="mb-0 d-inline">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              DAY #2
+              </button>
+           </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="DAY2" data-parent="#accordion">
+           <div class="card-body" id="child2">
+              <div class="card">
+                 <div class="card-header" id="headingATwo">
+                    <a href="#" data-toggle="collapse" data-target="#collapseTwoA" >#1 SHOULDER</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child2" id="collapseTwoA" aria-labelledby="headingATwo">
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseTwoA1" >1) SHOULDER PRESS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseTwoA" id="collapseTwoA1" aria-labelledby="headingATwo">
+                          <p class="p-2">1) Shoulder press rod</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2yjwXTZQDDI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Shoulder press Dumbell</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/qEwKCR5JCog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Arnold press Dumbell</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/6Z15_WdXmVw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseTwoA2">2) SHOULDER RAISE</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseTwoA" id="collapseTwoA2">
+                          <p class="p-2">1) Front raise rod</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/CJFJTPTdXc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Front raise dumbell</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/-t7fuZ0KhDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">3) Front raise machine rope</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/9ip9gn93v4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">4) Side raise dumbell</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/v_ZkxWzYnMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">5) Side raise machine rope</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/wdlj6v2ggS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseTwoA3">3) FACE PULL</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseTwoA" id="collapseTwoA3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/V8dZ3pyiCBo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                           <a href="#" data-toggle="collapse" data-target="#collapseTwoA4">3) SHRUGS</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#collapseTwoA" id="collapseTwoA4">
+                            <p class="p-2">1) Dumbell shrugs</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/JEnhFC1AtHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="p-2">2) Rod shrugs</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/NAqCVe2mwzM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="p-2">2) Machine rope shrugs</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wab3-dsZohU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseTwoB">#2 BURPEES</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child2" id="collapseTwoB">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mUYJqe_sJFE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseTwoC">#3 ABS LEG RAISE</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child2" id="collapseTwoC">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l4kQd9eWclE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseTwoD">#4 FORE ARMS FRONT</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child2" id="collapseTwoD">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UvYfOYVpEVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="card">
+        <div class="card-header" id="DAY3">
+           <h5 class="mb-0 d-inline">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              DAY #3
+              </button>
+           </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="DAY3" data-parent="#accordion">
+           <div class="card-body" id="child3">
+              <div class="card">
+                 <div class="card-header" id="headingAThree">
+                    <a href="#" data-toggle="collapse" data-target="#collapseThreeA" >#1 CHEST</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child3" id="collapseThreeA" aria-labelledby="headingAThree">
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseThreeA1" >1) CHEST PRESS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseThreeA" id="collapseThreeA1" aria-labelledby="headingAThree">
+                          <p class="p-2">1) Chest press rod</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/rT7DgCr-3pg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Chest press Dumbell</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/VmB1G1K7v94" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">3) Chest press machine bench</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/QkaRB_lbMxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">4) Chest press machine sitting</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/p6jieWs9xs0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseThreeA2">2) CHEST FLY</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseThreeA" id="collapseThreeA2">
+                          <p class="p-2">1) High Chest fly cable</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Iwe6AmxVf7o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Middle Chest fly cable</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/WEM9FCIPlxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">3) Low Chest fly cable</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/M1N804yWA-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">4) Chest fly machine sitting</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Z57CtFmRMxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseThreeA3">3) DUMBELL PULLOUT</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseThreeA" id="collapseThreeA3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5YStMv6m2g8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                           <a href="#" data-toggle="collapse" data-target="#collapseThreeA4">3) DOUBLE BAR - Dips</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#collapseThreeA" id="collapseThreeA4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yN6Q1UI_xkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-header">
+                           <a href="#" data-toggle="collapse" data-target="#collapseThreeA5">4) PUSH-UPS</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#collapseThreeA" id="collapseThreeA5">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IODxDxX7oi4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseThreeB">#2 MOUNTAIN CLAIMERS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child3" id="collapseThreeB">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZhiCSdOVJp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseThreeC">#3 ABS - PLANK</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child3" id="collapseThreeC">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F-nQ_KJgfCY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="card">
+        <div class="card-header" id="DAY4">
+           <h5 class="mb-0 d-inline">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              DAY #4
+              </button>
+           </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="DAY4" data-parent="#accordion">
+           <div class="card-body" id="child4">
+              <div class="card">
+                 <div class="card-header" id="headingAFour">
+                    <a href="#" data-toggle="collapse" data-target="#collapseFourA" >#1 BICEPS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child4" id="collapseFourA" aria-labelledby="headingAFour">
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseFourA1" >1) CURLS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseFourA" id="collapseFourA1" aria-labelledby="headingAFour">
+                          <p class="p-2">1) Barbell curls</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/QZEqB6wUPxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Alternate dumbell curls</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/sAq_ocpRh_I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">3) Hammer dumbell curls</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/zC3nLlEvin4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">4) Cable curls</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/AsAVbj7puKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseFourA2">2) PREACHER CURLS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseFourA" id="collapseFourA2">
+                          <p class="p-2">1) Machine Preacher curls</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/LdCm4mTVkUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Standing bench Preacher curls</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/7v7uldi1eLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseFourA3">3) CONCENTRATION CURLS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseFourA" id="collapseFourA3">
+                        <p class="p-2">1) Standing concentration curls (for biceps peak by arnold)*</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dihqSBk7uT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="p-2">1) Sitting concentration curls</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0AUGkch3tzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseFourB">#2 THREADMILL - WALKING / JOGGING 30MINS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child4" id="collapseFourB">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lhrae87EpWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="card">
+        <div class="card-header" id="DAY5">
+           <h5 class="mb-0 d-inline">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              DAY #5
+              </button>
+           </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="DAY4" data-parent="#accordion">
+           <div class="card-body" id="child4">
+              <div class="card">
+                 <div class="card-header" id="headingAFour">
+                    <a href="#" data-toggle="collapse" data-target="#collapseFiveA" >#1 TRICEPS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child4" id="collapseFiveA" aria-labelledby="headingAFour">
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseFiveA1" >1) TRICEPS - EXTENSIONS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseFiveA" id="collapseFiveA1" aria-labelledby="headingAFour">
+                          <p class="p-2">1) Over head one arm extension</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/_gsUck-7M74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Over head double arm extension</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/-Vyt2QdsR7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">3) Over head low pully extension</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/XTerYx0kwQ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Over head high pully extension</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/AsAVbj7puKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseFiveA2">2) TRICEPS - PUSHDOWNS</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseFiveA" id="collapseFiveA2">
+                          <p class="p-2">1) Machine triceps pushdown - rod</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2-LAMcpzODU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <p class="p-2">2) Machine triceps pushdown - rope</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/vB5OHsJ3EME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                          <a href="#" data-toggle="collapse" data-target="#collapseFiveA3">3) SKULL CRUSH</a>
+                       </div>
+                       <div class="card-body collapse" data-parent="#collapseFiveA" id="collapseFiveA3">
+                        <p class="p-2">1) Skull crush - bend rod</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d_KZxkY_0cM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="p-2">2) Skull crush - dumbell</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ir5PsbniVSc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                           <a href="#" data-toggle="collapse" data-target="#collapseFiveA4">4) KICK BACK</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#collapseFiveA" id="collapseFiveA4">
+                            <p class="p-2">1) Dumbell</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6SS6K3lAwZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="p-2">2) Rope</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8yTabH46T1s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                        <div class="card">
+                        <div class="card-header">
+                           <a href="#" data-toggle="collapse" data-target="#collapseFiveA5">4) PUSH-UPS</a>
+                        </div>
+                        <div class="card-body collapse" data-parent="#collapseFiveA" id="collapseFiveA5">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IODxDxX7oi4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseFiveB">#2 STEPPER 30MINS</a>
+                 </div>
+                 <div class="card-body collapse" data-parent="#child4" id="collapseFiveB">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Xqvfl8dqhuo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="card">
+        <div class="card-header" id="DAY6">
+           <h5 class="mb-0 d-inline">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+              DAY #6
+              </button>
+           </h5>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="DAY6" data-parent="#accordion">
+           <div class="card-body" id="child6">
+              <div class="card">
+                 <div class="card-header" id="headingASix">
+                    <a href="#" data-toggle="collapse" data-target="#collapseSixA" >#1 LAT ROWING DUMBELL</a>
+                 </div>
+              </div>
+              <div class="card">
+                 <div class="card-header">
+                    <a href="#" data-toggle="collapse" data-target="#collapseSixB">#2 DUMBELL / BARBELL SHOULDER PRESS</a>
+                 </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixC">#3 DUMBELL / BARBELL CHEST PRESS</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixD">#4 FRONT / SIDE SHOULDER RAISE DUMBELL</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixE">#5 CHEST FLY DUMBELL / HIGH PULLEY ROPE</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixF">#6 BICEPS ROD CURLS</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixG">#7 BICEPS ALTERNATE DUMBELL CURLS</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixG">#8 DUMBELL OVERHEAD EXTENSION DUMBELL / LOW PULLY</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixH">#9 DUMBELL PUSHDOWN HIGH PULLY</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixI">#10 JUMPING JACKS</a>
+                </div>
+             </div>
+             <div class="card">
+                <div class="card-header">
+                   <a href="#" data-toggle="collapse" data-target="#collapseSixJ">#11 BURPEES</a>
+                </div>
+             </div>
+           </div>
+        </div>
+     </div>
+</div>
+</div>
+</body>
+</html>
